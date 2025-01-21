@@ -1,5 +1,5 @@
 {
-    "$schema": "https://biomejs.dev/schemas/1.8.0/schema.json",
+    "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
     "organizeImports": {
         "enabled": true
     },
@@ -15,13 +15,6 @@
             }
         }
     },
-    "formatter": {
-        "enabled": true,
-        "indentStyle": "space",
-        "indentWidth": 4,
-        "lineEnding": "lf",
-        "lineWidth": 80
-    },
     "javascript": {
         "formatter": {
             "semicolons": "asNeeded"
@@ -29,7 +22,9 @@
     },
     "json": {
         "formatter": {
-            "trailingCommas": "none"
+            "indentSize": 4,
+            "enabled": true,
+            "indentStyle": "space"
         }
     }
 }
